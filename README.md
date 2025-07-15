@@ -38,3 +38,19 @@ node index.js
 4. API will run on:
 http://localhost:3000
 
+📮 API Endpoints
+| Method | Endpoint    | Description       |
+| ------ | ----------- | ----------------- |
+| GET    | /notes      | Get all notes     |
+| GET    | /notes/\:id | Get note by ID    |
+| POST   | /notes      | Add new note      |
+| PUT    | /notes/\:id | Update note by ID |
+| DELETE | /notes/\:id | Delete note by ID |
+
+📌 Sample JSON Body for POST & PUT
+{
+  "title": "Sample Note",
+  "content": "This is the note content."
+}
+
+
